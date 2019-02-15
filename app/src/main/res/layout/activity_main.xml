@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Id:"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/Id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:autoSizeTextType="uniform"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+            />
+
+
+    </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1.5"
+       android:orientation="horizontal"
+       android:weightSum="3"
+       >
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="Name:"
+           android:gravity="center"
+           android:autoSizeTextType="uniform"
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+           android:padding="5dp"
+           />
+
+       <EditText
+           android:id="@+id/nameId"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="2"
+           android:autoSizeTextType="uniform"
+           android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+           />
+
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Age:"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/ageId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:autoSizeTextType="uniform"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Gender:"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:padding="5dp"
+            />
+
+        <EditText
+            android:id="@+id/genderId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:autoSizeTextType="uniform"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/submitBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Submit"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:autoSizeTextType="uniform"
+            android:textColor="@android:color/white"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/ShowBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Show Data"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:autoSizeTextType="uniform"
+            android:textColor="@android:color/white"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/UpdateBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Update Data"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:autoSizeTextType="uniform"
+            android:textColor="@android:color/white"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/DeleteBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Delete Data"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:autoSizeTextType="uniform"
+            android:textColor="@android:color/white"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
